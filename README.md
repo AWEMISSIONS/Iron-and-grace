@@ -2,13 +2,11 @@
 
 A Scripture-centered weekly men's Bible study hub with daily ESV readings, reflection prompts, brotherhood check-ins, and meeting planning.
 
-## Live site
+## Deployment status
 
-The app deploys from `main` to GitHub Pages at:
+The GitHub Pages workflow is configured in `.github/workflows/deploy-pages.yml`. GitHub Pages must first be enabled for this repository with the source set to **GitHub Actions**. Then rerun the workflow from the Actions tab. Until that succeeds, the site is not live.
 
-https://awemissions.github.io/Iron-and-grace/
-
-GitHub Actions workflow: `.github/workflows/deploy-pages.yml`. Each push to `main` publishes the static site in `dist/`.
+Intended URL: https://awemissions.github.io/Iron-and-grace/
 
 ## Current features
 
